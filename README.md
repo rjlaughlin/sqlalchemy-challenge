@@ -5,7 +5,7 @@ This project conducts a climate analysis for Honolulu, Hawaii, to support trip p
 
 ## Features
 
-### Part 1: Climate Data Analysis
+### Part 1: Climate Data Analysis Jupyter Notebook
 #### Precipitation Analysis
 - Extracts precipitation data for the last 12 months using SQLAlchemy ORM queries.
 - Loads data into a Pandas DataFrame for analysis and visualization.
@@ -31,7 +31,6 @@ Creates a Flask application with the following routes:
 - **Jupyter Notebook**: Contains SQLAlchemy queries and data analysis. - `climate.ipynb)`
 - **Flask App**: Implements API routes based on the analysis. - `app.py`
 - **Resources Folder**: Includes the SQLite database (`hawaii.sqlite`) and other data files.
-- **Visualization Outputs**: Precipitation trends and temperature histograms.
 
 ## Setup and Dependencies
 
